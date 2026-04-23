@@ -1,5 +1,5 @@
 function sumar(a, b) {
-  return a + b;  // CORREGIDO
+  return a + b;
 }
 
 if (require.main === module) {
@@ -8,7 +8,7 @@ if (require.main === module) {
 
   const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hola DevOps!\n');
+    res.end('Hola Arquitectos!\n');
   });
 
   server.listen(PORT, () => {
