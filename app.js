@@ -1,5 +1,5 @@
 function sumar(a, b) {
-  return a + b;
+  return a * b;  // BUG INTENCIONAL: multiplicando en vez de sumando
 }
 
 if (require.main === module) {
