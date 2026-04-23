@@ -1,0 +1,25 @@
+{
+  "name": "cicd-lab",
+  "version": "1.0.0",
+  "description": "Mi primer pipeline CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanmendosu20/cicd-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Juanmendosu20/cicd-lab/issues"
+  },
+  "homepage": "https://github.com/Juanmendosu20/cicd-lab#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
